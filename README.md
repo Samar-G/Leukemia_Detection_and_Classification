@@ -9,5 +9,5 @@ Model Architecture: <br>
 Second saved model is the same but with 64 filters and each of size 2x2 <br>
 hidden layer has 128 nodes for both models. <br>
 
-Give credit if you will use any of the implemented codes, model architecture or attached databases :)
+Please give credit if you will use any of the implemented codes, model architectures or attached databases :)
 
