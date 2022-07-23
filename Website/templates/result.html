@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Leukemia</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta
+      name="description"
+      content="This web site detect Leukemia and classify it to its subtypes"
+    />
+    <meta name="keywords" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <link rel = "icon" href = "static/images/Picture2.png" type = "image/x-icon">
+
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/static/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/static/css/owl.carousel.css" />
+    <link rel="stylesheet" href="/static/css/owl.theme.default.min.css" />
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="/static/css/templatemo-style.css" />
+    <style>
+      input {
+        outline: none;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+        margin: 0 auto;
+        padding: 0.9rem 2.5rem;
+        border-radius: 17px;
+        opacity: 0.8;
+      }
+      #back {
+        background-color: #68afff;
+        border-radius: 17px;
+        width: 750px;
+        height: 400px;
+        position: absolute;
+        left: auto;
+        margin-left: calc(50vw - 370px);
+        opacity: 0.8;
+      }
+      #top {
+        background-image: url("static/images/dna.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
+  <body
+    id="top"
+    data-spy="scroll"
+    data-target=".navbar-collapse"
+    data-offset="50"
+  >
+    <!-- PRE LOADER -->
+    <section class="preloader">
+      <div class="spinner">
+        <span class="spinner-rotate"></span>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target=".navbar-collapse"
+          >
+            <span class="icon icon-bar"></span>
+            <span class="icon icon-bar"></span>
+            <span class="icon icon-bar"></span>
+          </button>
+
+          <!-- Website Logo  -->
+          <img src="static/images/Picture2.png" style="width: 25%; height: 25%; display: inline-block;">
+          <p style="display: inline-block;" class="navbar-brand">Leukemia</p>
+        </div>
+
+        <!-- MENU LINKS -->
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-nav-first">
+            <li><a href="/home" class="smoothScroll">Home</a></li>
+            <li>
+              <a href="/home" class="smoothScroll">Project Description</a>
+            </li>
+            <!-- delete this -->
+            <li><a href="/home" class="smoothScroll">Team Members</a></li>
+            <li><a href="/home" class="smoothScroll">Functionality</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="/home"><i class="fa fa-envelope-o"></i>Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Functionality -->
+    <br><br>
+    <section id="courses">
+      <div
+        id="back">
+        <br>
+        <center>
+          <div>
+            <br>
+            <img src="{{imageFile}}" style="width: 27%; height: 27%" />
+          </div>
+          <h3 style="color: rgb(0, 0, 0)">The Predictions:</h3>
+          <br />
+          <p
+            style="
+              padding-bottom: 25px;
+              padding-left: 25px;
+              font-size: large;
+              color: rgb(49, 0, 61);
+              font-weight: bold;
+
+            "
+          >
+            {{result}}
+          </p>
+        </center>
+      </div>
+    </section>
+
+
+    <!-- SCRIPTS -->
+    <script src="/static/js/jquery.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/owl.carousel.min.js"></script>
+    <script src="/static/js/smoothscroll.js"></script>
+    <script src="/static/js/custom.js"></script>
+    <!-- <script src="/static/js/jav.js"></script> -->
+  </body>
+</html>
