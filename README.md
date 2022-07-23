@@ -2,4 +2,5 @@
 Detecting Leukemia Cells and Classifying to which leukemia type. <br>
 Used two datasets that are publicly available. <br>
 Used both machine learning and deep learning techniques. <br>
-Build a user friendly interface using flask to register and upload images and deployed the best model in it.
+Build a user friendly interface using flask to register and upload images and deployed the best model in it. <br>
+Give credit if you will use any of the implemented codes or attached databases :)
