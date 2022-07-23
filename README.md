@@ -6,7 +6,8 @@ Build a user friendly interface using flask to register and upload images and de
 Model Architecture: <br>
 ![image](https://user-images.githubusercontent.com/88295264/180585319-e873b2b3-1d6f-47d3-a04e-811f1f0bded1.png)
 <br>
-Second saved model is the same but with 64 filters and each of size 2x2
+Second saved model is the same but with 64 filters and each of size 2x2 <br>
+hidden layer has 128 nodes for both models. <br>
 
 Give credit if you will use any of the implemented codes, model architecture or attached databases :)
 
